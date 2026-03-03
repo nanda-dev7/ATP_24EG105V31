@@ -1,0 +1,40 @@
+### Read all users `
+GET http://localhost:7000/product
+
+
+
+
+### Read a user by id
+### // line break
+POST http://localhost:7000/product
+
+Content-Type: application/json
+
+{
+    "productId":10,
+    "name":"varun",
+    "brand":"nike",
+    "price":5000
+}
+
+
+### 
+PUT http://localhost:7000/product
+
+
+
+
+### 
+DELETE http://localhost:7000/product
+
+// post req put req should sent data to the api as the body of the req objecr
+// get and delete req do not support body of the request so that these two request through end point
+
+
+
+
+// Create product api with below operations 
+// create new product {product id,name,bran,price}
+// read all elements
+// read all product by brand
+// delete a product by id
