@@ -1,48 +1,50 @@
 # Week 1 - Day 2
 
 ## Topics Covered
-
-- Array Operations
-- ES6 Concepts
+- Advanced JavaScript Concepts
+- ES6 Array Methods
 - JavaScript Modules
-- Advanced Hands-on Exercises
+- Array Operations
+- Object Manipulation
+- Real-world Problem Solving
 
 ---
 
-# Programs
+## Programs
 
 | File Name | Description |
-|-----------|-------------|
-| app.js | Main application file |
-| array_operations1.js | Array operation practice 1 |
-| array_operations2.js | Array operation practice 2 |
-| array_operations3.js | Array operation practice 3 |
-| es6_practise.js | ES6 feature practice |
-| handson3_adv1.js | Advanced hands-on task 1 |
-| handson3_adv2.js | Advanced hands-on task 2 |
-| handson3_adv3.js | Advanced hands-on task 3 |
-| handson3_adv4.js | Advanced hands-on task 4 |
-| handson3_adv5.js | Advanced hands-on task 5 |
-| module_1.js | JavaScript module practice |
-| module_2.js | Module implementation |
-| module_handson_assig1.js | Module assignment |
-| task.js | Task implementation |
-| thirddemo.js | Demo program |
-| validator.js | Validation logic |
+|------------|-------------|
+| `advancedJavaScriptConcepts.js` | Advanced JavaScript concepts including arrays, objects, sorting, reduce, find, and error handling |
+| `dailyTemperatureAnalyzer.js` | Temperature analysis using filter, map, reduce, find, and findIndex |
+| `onlineCourseNameProcessor.js` | Course data processing and string transformations |
+| `studentMarksAnalyzer.js` | Student marks analysis and grading operations |
+| `es6ArrayMethodsPractice.js` | Practice of ES6 array methods |
+| `shoppingCartAnalyzer.js` | E-commerce shopping cart analysis system |
+| `studentPerformanceDashboard.js` | Student performance and grading dashboard |
+| `employeeSalaryAnalyzer.js` | Employee salary processing and department analysis |
+| `movieRatingsAnalyzer.js` | Movie collection and ratings analysis |
+| `bankTransactionAnalyzer.js` | Bank transaction and account balance analysis |
+| `dataExports.js` | ES6 named and default export examples |
+| `moduleImports.js` | ES6 module import examples |
+| `taskManagerApp.js` | Main application for task management system |
+| `taskManagerAppAssignment.js` | Task management assignment implementation |
+| `taskService.js` | Task operations and business logic |
+| `taskValidator.js` | Input validation functions for tasks |
 
 ---
 
-# Skills Practiced
-
+## Skills Practiced
 - ES6 Syntax
-- Import & Export Modules
-- Array Manipulations
-- Hands-on Coding
-- JavaScript Logic Building
+- Array Methods
+- JavaScript Modules
+- Object Manipulation
+- Problem Solving
+- Functional Programming Concepts
+- Import & Export Operations
 
 ---
 
-# Author
+## Author
+**Vivekananda Reddy**
 
-Vivekananda Reddy  
 GitHub: https://github.com/nanda-dev7
