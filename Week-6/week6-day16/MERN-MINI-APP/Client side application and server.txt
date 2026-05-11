@@ -1,0 +1,51 @@
+Client side application and server side application can intaeract with each other over http protocol by making http req and http response,
+
+To make the http req from client side application , one can use either fetch function or axios module 
+
+--> The following are the http req types.
+
+GET --> to read all resources
+POST ---> to create a new resource 
+PUT  --> to update an entire resource 
+DELETE--> to delete a resource 
+PATCH --> to update a resource partially.
+
+
+The post put and patch req types can have body property  which can hold json data where has get and delete req donot have body property they can send data through url
+
+
+
+-->State management
+sharing state + keeping state sync across app 
+
+TO share the state from the root component to the children is not issue
+--> Whenever from the root component to their children children it leads to props drilling issue
+
+To overcome this state management we have two methods
+
+-->Context API [small apps]
+we can share the state using context provider
+
+---> Redux/ Zustand[ altrenative for redux and More Advanced]--->[large apps]
+-->Above two are advanced state management
+
+
+# Context API
+   -- create context object (pipeline)
+   -- add state to context object  ( add water to pipeline )
+   --set this context provider to a parent
+
+   -- Consume context from components 
+
+-->Issues with context
+1) Context with usestate hook is a best and simple state management mechanism for small applications
+
+But it creates unnecessary rerendering issues when multiple state is a part of context
+
+--> TO overcome this unnecessary rendering issue , create multiple context make sure each context has a single state
+
+--When the application size is huge then, maintainance of multiple context will become a issue
+
+When larges application advance application tools like  redux zedstand is used..
+
+#Advanced state management with zutstand

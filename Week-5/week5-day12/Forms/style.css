@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+form{
+    width:700px;
+    margin:auto;
+    margin-top: 250px;
+    background-color:aquamarine;
+    padding: 60px;
+}
+label{
+    color:white;
+    font-size: 20px;
+}
+input[type="text"],
+input[type="password"],select,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.field{
+    margin-bottom: 23px;
+
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5pz;
+    background-color:bisque;
+    display: block;
+    margin: auto;
+}
+

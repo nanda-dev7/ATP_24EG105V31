@@ -1,0 +1,100 @@
+
+### Readd All users (req to protected route)
+GET http://localhost:4000/user-api/users
+
+
+### Read user by id
+GET http://localhost:4000/user-api/user
+
+
+
+### user login  
+// leave a line after content type if not you will get an err header name must be valid
+POST http://localhost:4000/user-api/auth
+Content-Type: application/json  
+
+{
+    "email":"nanda@gmail.com",
+    "password":"nanda"
+} 
+
+### Create new user
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"nanda",
+    "password":"nanda",
+    "email":"nanda@gmail.com",
+    "age":24
+}
+
+###Update the existing user
+PUT  http://localhost:4000/user-api/users/69ad04f67b125ae35bc862b7
+Content-Type: application/json
+
+{
+    "username":"bhanukumar",
+    "password":"bhanuprasad",
+    "email":"bhanuprasad@gmial.com",
+    "age":24
+}
+
+
+### Delete the existing user
+DELETE http://localhost:4000/user-api/users/69ad04f67b125ae35bc862b7  
+
+### add product to user req 
+PUT http://localhost:4000/user-api/cart/product-id/69ad117135eb5ea9477ad543
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Products api 
+### reading all the products
+
+
+### adding a new product
+POST http://localhost:4000/product-api/product
+Content-Type: application/json
+
+{
+    "productId":9,
+    "productName":"eraser",
+    "price":15000,
+    "brand":"camlin"
+}
+
+### read all product by brand
+GET http://localhost:4000/product-api/product
+
+### read all product by brand
+GET http://localhost:4000/product-api/product/4
+
+
+### updating a product
+PUT http://localhost:4000/product-api/product/4
+Content-Type: application/json
+
+{
+    "productId":4,
+    "productName":"eraser",
+    "price":30000,
+    "brand":"apsara"
+}
+
+### deleteing an existing product by id
+DELETE http://localhost:4000/product-api/product/4

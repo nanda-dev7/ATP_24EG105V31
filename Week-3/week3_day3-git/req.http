@@ -1,0 +1,98 @@
+
+### Readd All users (req to protected route)
+GET http://localhost:4000/user-api/users
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJoYW51QGdtYWlsLmNvbSIsImlhdCI6MTc3Mjk0Njc3OCwiZXhwIjoxNzcyOTU3NTc4fQ.Oe41UTPIw-Y6nbBYjG9IqPkdWEWPF4clDa-knowHgVs; Path=/; HttpOnly; SameSite=Lax
+### Read user by id
+GET http://localhost:4000/user-api/users/69ad04f67b125ae35bc862b7
+
+
+
+### user login  
+// leave a line after content type if not you will get an err header name must be valid
+POST http://localhost:4000/user-api/auth
+Content-Type: application/json  
+
+{
+    "email":"bhanu@gmail.com",
+    "password":"bhanu"
+} 
+
+### Create new user
+POST http://localhost:4000/user-api/users
+Content-Type: application/json
+
+{
+    "username":"bhanu",
+    "password":"bhanu",
+    "email":"bhanu@gmail.com",
+    "age":24
+}
+
+###Update the existing user
+PUT  http://localhost:4000/user-api/users/69ad04f67b125ae35bc862b7
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJoYW51QGdtYWlsLmNvbSIsImlhdCI6MTc3Mjk0Njc3OCwiZXhwIjoxNzcyOTU3NTc4fQ.Oe41UTPIw-Y6nbBYjG9IqPkdWEWPF4clDa-knowHgVs; Path=/; HttpOnly; SameSite=Lax
+Content-Type: application/json
+
+{
+    "username":"bhanukumar",
+    "password":"bhanuprasad",
+    "email":"bhanuprasad@gmial.com",
+    "age":24
+}
+
+
+### Delete the existing user
+DELETE http://localhost:4000/user-api/users/69ad04f67b125ae35bc862b7  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Products api 
+### reading all the products
+
+
+### adding a new product
+POST http://localhost:4000/product-api/product
+Content-Type: application/json
+
+{
+    "productId":4,
+    "productName":"pen",
+    "price":15000,
+    "brand":"camlin"
+}
+
+### read all product by brand
+GET http://localhost:4000/product-api/product
+
+### read all product by brand
+GET http://localhost:4000/product-api/product/4
+
+
+### updating a product
+PUT http://localhost:4000/product-api/product/4
+Content-Type: application/json
+
+{
+    "productId":4,
+    "productName":"eraser",
+    "price":30000,
+    "brand":"apsara"
+}
+
+### deleteing an existing product by id
+DELETE http://localhost:4000/product-api/product/4

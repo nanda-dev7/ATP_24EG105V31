@@ -1,0 +1,27 @@
+.img{
+    box-shadow: 1px 2px 40px red;
+}
+body{
+    height: 2000px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin-top: 300px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+.img1{
+    right:15px;
+    bottom: 10px;
+    left: 45px;
+    position: fixed;
+}
+.img2{
+    top:15px;
+    right: 15px;
+    position: fixed;
+}

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+h1{
+    color: green;
+}
+h2{
+    color:black;
+}

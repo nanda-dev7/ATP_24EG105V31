@@ -1,0 +1,30 @@
+### Create Employee
+POST http://localhost:5000/employee/add
+Content-Type: application/json
+
+{
+    "name": "Anurag",
+    "email": "anurag@example.com",
+    "mobile": 9999999999,
+    "designation": "Software Engineer",
+    "companyName": "ABC Corp"
+}
+
+### Read All Employees
+GET http://localhost:5000/employee
+
+
+### Edit Employee 
+PUT http://localhost:5000/employee/69ca1a4d4fbbb3f27a9f8d25
+Content-Type: application/json
+
+{
+    "name": "Anurag",
+    "email": "anuragkumar@gmail.com",
+    "mobile": 8888888888,
+    "designation": "Senior Software Engineer",
+    "companyName": "Suntek"
+}
+
+### Delete Employee 
+DELETE http://localhost:5000/employee/69ca1a4d4fbbb3f27a9f8d25

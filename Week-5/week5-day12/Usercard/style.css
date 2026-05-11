@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.emp-card{
+    width:500px;
+    margin: auto;
+    box-shadow: 2px 2px 20px rgb(142, 124, 102);
+    margin-top: 200px;
+    padding: 50px;
+    text-align: center;
+    border-radius: 40px;
+}
+img{
+    width: 70%;
+    margin-bottom: 30px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(94, 29, 29);
+}
+p{
+    padding: 5px;
+}
+button{
+    border: none;
+    text-decoration:rgb(27, 125, 125);
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(76, 188, 51);
+}

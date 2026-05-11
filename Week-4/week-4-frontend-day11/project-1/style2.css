@@ -1,0 +1,25 @@
+img{
+    display:block;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+div{
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+body{
+    background-color: beige;
+}
+h2{
+    color:blue
+
+}
+p{
+    color: aquamarine;
+}
+img{
+    align-items: end;
+}
