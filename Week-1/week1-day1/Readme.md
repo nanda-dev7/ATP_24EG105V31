@@ -1,35 +1,41 @@
 # Week 1 - Day 1
 
 ## Topics Covered
-
 - Introduction to JavaScript
 - Functions
-- Array Basics
-- Number Programs
+- Arrays and Array Traversal
+- Conditional Statements
+- Problem Solving with JavaScript
 
 ---
 
-# Programs
+## Programs
 
 | File Name | Description |
-|-----------|-------------|
-| arrayasarg.js | Passing arrays as arguments |
-| firstdemo.js | Basic JavaScript demo |
-| functionforsearchele.js | Searching elements using functions |
-| greatestnum.js | Find greatest number |
-| greatestofthreenum.js | Find greatest among three numbers |
-| greatestoftwonum.js | Find greater between two numbers |
-| smallestarrnum.js | Find smallest element in array |
-| sumofarr.js | Sum of array elements |
+|------------|-------------|
+| `javascriptFundamentals.js` | JavaScript basics, variables, arrays, objects, and functions |
+| `sumArrayElements.js` | Calculate the sum of array elements |
+| `findElementIndex.js` | Search and find index of an element in array |
+| `findGreatestNumber.js` | Find the greatest number |
+| `findGreatestOfThreeNumbers.js` | Find the largest among three numbers |
+| `findGreatestOfTwoNumbers.js` | Compare and find greater between two numbers |
+| `findSmallestNumberInArray.js` | Find the minimum element in an array |
 
 ---
 
-# Skills Practiced
-
-- Problem Solving
+## Skills Practiced
 - Function Creation
 - Array Traversal
 - Conditional Logic
+- Problem Solving
+- JavaScript Fundamentals
+
+---
+
+## Author
+**Vivekananda**
+
+GitHub: https://github.com/nanda-dev7
 
 ---
 
