@@ -1,31 +1,37 @@
 # Week 2 - Day 1
 
 ## Topics Covered
-
-- JavaScript Practice
-- Functions
-- Basic Programs
+- Advanced JavaScript Functions
+- Higher-Order Functions
+- Closures and Scope
+- Arrays and Objects
+- Array Operations
+- Employee Record Management
 
 ---
 
-# Programs
+## Programs
 
 | File Name | Description |
-|-----------|-------------|
-| handout2.js | JavaScript handout practice |
-| seconddemo.js | JavaScript demo program |
+|------------|-------------|
+| `advancedFunctionsAndCollections.js` | Advanced JavaScript concepts including higher-order functions, closures, arrays, objects, sorting, searching, and error handling |
+| `employeeRecordOperations.js` | Employee record management using insert, delete, update, and array manipulation operations |
 
 ---
 
-# Skills Practiced
-
-- Logic Building
-- JavaScript Syntax
+## Skills Practiced
+- Higher-Order Functions
+- Callback Functions
+- Closures
+- Array Manipulation
+- Object Operations
 - Problem Solving
+- JavaScript Collections
+- CRUD-style Operations
 
 ---
 
-# Author
+## Author
+**Vivekananda Reddy**
 
-Vivekananda
 GitHub: https://github.com/nanda-dev7
