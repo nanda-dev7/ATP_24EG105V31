@@ -1,44 +1,47 @@
 # Week 2 - Day 2
 
 ## Topics Covered
-
-- Classes in JavaScript
+- JavaScript Classes
+- Object-Oriented Programming (OOP)
 - Spread Operator
 - Deep Copy & Shallow Copy
+- Advanced JavaScript Concepts
+- ES6 Features
+
+---
+
+## Programs
+
+| File Name | Description |
+|------------|-------------|
+| `libraryBookManagementSystem.js` | Object-oriented library management system using JavaScript classes |
+| `deepCopyOperations.js` | Deep copy implementation and memory reference handling |
+| `shallowCopyOperations.js` | Shallow copy concepts and object reference examples |
+| `spreadOperatorExamples.js` | Spread operator examples with arrays and objects |
+| `advancedFunctionsAndCollections.js` | Advanced JavaScript functions, closures, collections, arrays, and objects |
+
+---
+
+## Folder
+
+| Folder Name | Description |
+|-------------|-------------|
+| `advanced-javascript` | Advanced JavaScript practice programs and asynchronous concepts |
+
+---
+
+## Skills Practiced
+- Object-Oriented Programming
+- Class Creation
+- ES6 Features
+- Object Manipulation
+- Memory Reference Concepts
+- Copy Operations
 - Advanced JavaScript Concepts
 
 ---
 
-# Programs
+## Author
+**Vivekananda Reddy**
 
-| File Name | Description |
-|-----------|-------------|
-| class_handson.js | Practice using JavaScript classes |
-| deepcopy_handson.js | Deep copy implementation |
-| fourthdemo.js | Demo practice program |
-| shallow_copy_handson.js | Shallow copy implementation |
-| spread_operator_handson.js | Spread operator practice |
-
----
-
-# Folder
-
-| Folder Name | Description |
-|-------------|-------------|
-| advancejs | Advanced JavaScript practice files |
-
----
-
-# Skills Practiced
-
-- Object Manipulation
-- ES6 Features
-- Class Creation
-- Memory Reference Concepts
-
----
-
-# Author
-
-Vivekananda
 GitHub: https://github.com/nanda-dev7
