@@ -13,10 +13,11 @@ config();
 const app = exp()
 
 app.use(cors({
-  origin: "https://blogapp-three-cyan.vercel.app",
+  origin: [
+    "http://localhost:5173",
+    "https://dapper-puppy-749834.netlify.app"
+  ],
   credentials: true,
-  //methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  //allowedHeaders: ["Content-Type", "Authorization"]
 }));
 
 

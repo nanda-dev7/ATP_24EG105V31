@@ -16,8 +16,8 @@ Content-Type: application/json
 {
     "firstName":"A",
     "lastName":"author2",
-    "email":"author2@gmail.com",
-    "password":"author2",
+    "email":"author4@gmail.com",
+    "password":"author4",
     "role":"AUTHOR",
     "profileImageUrl":"xdcfvgbhnjm"
 }

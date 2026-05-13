@@ -2,12 +2,12 @@
 
 
 ### login
-POST http://localhost:5000/auth/login
+POST https://blogapp-nwn0.onrender.com/auth/login
 Content-Type: application/json
 
 {
-    "email":"admin@gmail.com",
-    "password":"admin"
+    "email":"admin4@gmail.com",
+    "password":"admin4"
 }
 
 ###logout
