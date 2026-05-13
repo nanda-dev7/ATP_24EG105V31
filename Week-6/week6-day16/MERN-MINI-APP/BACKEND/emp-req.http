@@ -1,5 +1,5 @@
 ### Create Employee
-POST http://localhost:5000/employee/add
+POST http://localhost:5000/employee
 Content-Type: application/json
 
 {
@@ -10,11 +10,11 @@ Content-Type: application/json
     "companyName": "ABC Corp"
 }
 
-### Read All Employees
+
+### Read Employees
 GET http://localhost:5000/employee
 
-
-### Edit Employee 
+### Update Employee
 PUT http://localhost:5000/employee/69ca1a4d4fbbb3f27a9f8d25
 Content-Type: application/json
 
@@ -26,5 +26,5 @@ Content-Type: application/json
     "companyName": "Suntek"
 }
 
-### Delete Employee 
+### Delete Employee
 DELETE http://localhost:5000/employee/69ca1a4d4fbbb3f27a9f8d25
