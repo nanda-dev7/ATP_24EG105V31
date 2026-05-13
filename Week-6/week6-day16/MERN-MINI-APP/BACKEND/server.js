@@ -10,12 +10,7 @@ const app = exp();
 const port = process.env.PORT || 5000;
 
 // enable CORS for Vite frontend
-app.use(
-  cors({
-    origin: ["http://localhost:5173"],
-    credentials: true,
-  })
-);
+app.use(cors());
 app.use(exp.json());
 app.use(cookieParser());
 

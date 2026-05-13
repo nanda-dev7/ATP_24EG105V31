@@ -1,5 +1,5 @@
 ### Create Employee
-POST http://localhost:5000/employee
+POST https://empapp-zva5.onrender.com/employee
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
 
 
 ### Read Employees
-GET http://localhost:5000/employee
+GET https://empapp-zva5.onrender.com/employee
 
 ### Update Employee
 PUT http://localhost:5000/employee/6a042e108936c3a9dc463422

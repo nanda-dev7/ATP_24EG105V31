@@ -17,7 +17,7 @@ function CreateEmp() {
     try {
       setLoading(true);
       //make HTTP POST req
-      let res = await fetch("http://localhost:5000/employee/employees", {
+      let res = await fetch("https://empapp-zva5.onrender.com/employee", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newEmpObj),

@@ -25,7 +25,7 @@ function ListOfEmps() {
   const handleUpdate = async (event) => {
     event.preventDefault();
     try {
-      let res = await fetch(`http://localhost:5000/employee/${editEmp._id}`, {
+      let res = await fetch(`https://empapp-zva5.onrender.com/employee/${editEmp._id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(editEmp),
@@ -49,7 +49,7 @@ function ListOfEmps() {
   const handleDelete = async (id) => {
     if (window.confirm("Are you sure you want to delete this employee?")) {
       try {
-        let res = await fetch(`http://localhost:5000/employee/${id}`, {
+        let res = await fetch(`https://empapp-zva5.onrender.com/employee/${id}`, {
           method: "DELETE",
         });
         if (res.status === 200) {
@@ -71,7 +71,7 @@ function ListOfEmps() {
       try {
         setLoading(true);
         setError("");
-        let res = await fetch("http://localhost:5000/employee/employees");
+        let res = await fetch("https://empapp-zva5.onrender.com/employee");
         if (res.status === 200) {
           let resObj = await res.json();
           setEmps(resObj);
