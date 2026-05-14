@@ -15,7 +15,7 @@ const app = exp()
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://clinquant-cranachan-ea2d85.netlify.app"
+    "https://dapper-puppy-749834.netlify.app"
   ],
   credentials: true,
 }));
