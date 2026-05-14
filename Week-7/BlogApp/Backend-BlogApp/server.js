@@ -15,7 +15,8 @@ const app = exp()
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://clinquant-cranachan-ea2d85.netlify.app"
+    "https://clinquant-cranachan-ea2d85.netlify.app",
+    "https://atp-24-eg-105-v31.vercel.app/"
   ],
   credentials: true,
 }));
