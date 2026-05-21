@@ -1,5 +1,5 @@
 # Week 2 - Day 1
-
+             
 ## Topics Covered
 - Advanced JavaScript Functions
 - Higher-Order Functions
